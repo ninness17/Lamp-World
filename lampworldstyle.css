@@ -21,7 +21,6 @@ img{
   height: 10em;
   width:30em;
   align-content: center;
-
 }
 
 footer{
@@ -32,14 +31,11 @@ footer{
   margin: 0 auto;
   height: 20px;
   color: black;
-
-
 }
 
 .menu{
   text-align: center;
 }
-
 
 #navlinks{
 
@@ -51,9 +47,6 @@ footer{
 	font-size: 13px;
 	list-style: none;
   border-bottom: 1px solid black;
-
-
-
 }
 
 #navlinks a{
@@ -72,8 +65,6 @@ footer{
 	font-weight: lighter;
 }
 
-
-
 #footerlink {
   text-align: center;
 	margin: 0;
@@ -82,7 +73,6 @@ footer{
 	color: black;
 	font-size: 13px;
 	list-style: none;
-
 }
 
 #footerlink ul{
@@ -98,14 +88,11 @@ footer{
 	font-weight: lighter;
 }
 
-
-
 #footerlink li.last {
 	border-right: 0;
 }
 
 #top {
-
   padding-left: 5em;
   padding-right: 5em;
   padding-top: 1em;
