@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="storelocation.css" />
+    <meta charset="utf-8">
+    <title>Lamp World</title>
+  </head>
+  <body>
+
+    <div id="top">
+
+    <ul id="navlinks">
+      <img src="LW.png" height="177" width="492">
+      <br>
+      <br>
+      <li class="first"><a href="lampworld.html">HOME</a></li>
+      <li><a href="aboutus.html">ABOUT US</a></li>
+      <li><a href="StoreLocation.html">STORE LOCATION</a></li>
+      <li><a href="history_of_lamps.html">HISTORY OF LAMPS</a></li>
+      <li class="last"><a href="Contact Us.html">CONTACT US</a></li>
+    </ul>
+  </div>
+
+    <br>
+
+    <div class = "content">
+    <div class="text">
+    <h2> Store Location</h2>
+    <p> Lamp world is located in the heart of Berlin, Germany in the LP12 Mall of Berlin. Whatever kind of lamp
+    you are looking for, you will find it at Lamp World. Come see what we have to
+  offer and visit Lamp World today.
+Berlin Marketplace specializes in the groceries your family needs.
+Whatever you are looking for,
+you'll find it at Berlin Marketplace.
+ Visit our supermarket and see what we have to offer. </p>
+
+ <h3>Street Address</h3>
+ LP12 Mall of Berlin<br> Leipziger Platz 12 10117 <br> Berlin, Germany <br><br><br>
+
+  <div id="map">
+      <script>
+      function initMap() {
+        var myLatLng = {lat: 52.520008, lng: 13.404954};
+
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 6,
+          center: myLatLng
+        });
+
+        var marker = new google.maps.Marker({
+          position: myLatLng,
+          map: map,
+          title: 'Hello World!'
+        });
+      }
+</script>
+
+
+  <!--  <script>
+       function initMap() {
+         var mapDiv = document.getElementById('map');
+         var map = new google.maps.Map(mapDiv, {
+             center: {lat: 44.540, lng: -78.546},
+             zoom: 8
+         });
+       }
+       var marker = new google.maps.Marker({
+    position: myLatlng,
+    title:"Hello World!"
+  });
+  marker.setMap(map);
+
+     </script>
+-->
+     <script async defer
+         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA7_sIQftRJSS--FsYxzcu6wA4mWZ5RxHE&callback=initMap">
+     </script>
+</div>
+<br>
+
+<b><a class="directionslink" href="https://www.google.com/maps/dir/''/LP12+Mall+of+Berlin,+Leipziger+Pl.+12,+10117+Berlin,+Germany/@52.5105842,13.3110692,12z/data=!3m1!4b1!4m8!4m7!1m0!1m5!1m1!1s0x47a851cecff94831:0x9f39bce1f6ad5524!2m2!1d13.3811087!2d52.5106049">
+  GET DIRECTIONS </a></B>
+
+</div>
+    <footer>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <ul id="footerlink">
+        <li>Copyright @ 2016 LampWorld Inc. All rights reserved.</li>
+        <li>Designed by Noah Inness, Onyi Awani, Felix Amankwah</li>
+        <li>CSC340 Khadija Stewart</li>
+        <li class="last">Published 9/11/2016</li>
+      </ul>
+    </footer>
+
+  </body>
+</html>
