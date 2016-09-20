@@ -1,0 +1,160 @@
+body{
+  background-color: #f3f2ed;
+  font-weight: lighter;
+  font-family:"segoe ui";
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+h3{
+  padding-bottom:1em;
+}
+
+h2 {
+  font-family:"segoe ui";
+}
+
+h1{
+  font-family:"segoe ui";
+  font-size: 10em;
+}
+
+img #hello{
+  float:left;
+  align-content: center;
+}
+img #logo{
+  background-color: #f2f1ec;
+  height: 10em;
+  width:30em;
+  align-content: center;
+
+}
+
+footer{
+  /*position: absolute;*/
+  text-align: center;
+  width:100%;
+  bottom: 0;
+  margin: 0 auto;
+  height: 20px;
+  color: black;
+}
+
+h2{
+  font-size: 1.7em;
+  color: #333;
+  font-weight: lighter;
+  font-family:"Lucida Console", sans-serif;
+  text-decoration: none;
+  padding:0
+}
+
+.menu{
+  text-align: center;
+}
+
+
+#navlinks{
+
+  text-align:center;
+  margin: 0;
+	padding: 1em 6em;
+	background: #f2f1ec
+	color: #FFF;
+	font-size: 13px;
+	list-style: none;
+  border-bottom: 1px solid black;
+
+
+
+}
+
+#navlinks a{
+  font-size: 1.5em;
+  color: #333;
+  font-weight: lighter;
+  font-family:"Lucida Console", sans-serif;
+  text-decoration: none;
+  padding: 1em;
+}
+
+#navlinks li {
+	display: inline;
+	margin-right: .9em;
+	padding-right: 0.75em;
+	font-weight: lighter;
+}
+
+
+
+#footerlink {
+  text-align: center;
+	margin: 0;
+	padding: 0.5em 3em;
+	/*//background: #686397;*/
+	color: black;
+	font-size: 13px;
+	list-style: none;
+
+}
+
+#footerlink ul{
+  text-align: center;
+}
+#footerlink li {
+  vertical-align: middle;
+  text-align: center;
+	display: inline;
+	margin-right: 0.5em;
+	padding-right: 0.75em;
+	border-right: 1px solid #99C;
+	font-weight: lighter;
+}
+
+
+
+#footerlink li.last {
+	border-right: 0;
+}
+
+#top {
+
+  padding-left: 5em;
+  padding-right: 5em;
+  padding-top: 1em;
+}
+
+.text{
+  margin-left: 4.3em;
+  margin-right:4.3em;
+  padding-left: 10px;
+  font-family:"segoe ui",cambria
+
+}
+
+.text p{
+  margin-top:.75em;
+  padding-left:1em;
+  font-family:"segoe ui", cambria
+}
+
+#navlinks a:hover, a:active
+{
+	color: #d97b7b;
+}
+
+#activeheading
+{
+  color: #d97b7b
+}
+
+.profilepic{
+  float: left;
+  margin-right: 1em;
+}
+
+#minornote{
+
+}
